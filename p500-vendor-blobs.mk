@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+    vendor/lge/p500/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/p500/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 
@@ -43,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/lge/p500/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libwms.so:system/lib/libwms.so \
-    vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p500/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/p500/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/lge/p500/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libsnd.so:system/lib/libsnd.so \
     vendor/lge/p500/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p500/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/p500/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p500/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
@@ -77,6 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/p500/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/p500/proprietary//lib/egl/egl.cfg:system//lib/egl/egl.cfg \
+    vendor/lge/p500/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
